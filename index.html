@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GA6-220501096-AA4-EV01</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tutoría en Vectores</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="templates/menu/introduccion.html">Introducción</a></li>
+                <li><a href="templates/menu/conclusiones.html">Conclusiones</a></li>
+                <li><a href="templates/menu/cibergrafia.html">Cibergrafía</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content_home" style="background-image: url('static/images/vectores.png');">
+        <p id="student_presentation">
+            <span>Maritza Lizeth García Sánchez</span> <br>
+            Instructor: Carlos Andrés Mora<br>
+            Ficha: 2675859 <br>
+            Programa de Formación Titulada <br>
+            Tecnología en análisis y desarrollo de software <br>
+            Centro De Comercio Y Turismo – Regional Quindío  <br>
+            Fase 3: Ejecución <br>
+            SENA <br>
+            2023
+        </p>
+    </div>
+
+    <div class="container_tutorial_list">
+        <h2>🔍 Temas para Tutoría en Vectores 🔍</h2>
+        <ol class="tutorial_list">
+            <li>
+                <span>1. </span>
+                <a href="#item_1">Introducción a los vectores</a>
+            </li>
+            <li>
+                <span>2. </span>
+                <a href="#item_2">Operaciones básicas con vectores</a>
+                <ol>
+                    <li>
+                        <span>2.1 </span>
+                        <a href="templates/operaciones/suma_resta.html">Suma y resta de vectores</a>
+                    </li>
+                    <li>
+                        <span>2.2 </span>
+                        <a href="templates/operaciones/mutiplicar_escalar.html">Multiplicación por un escalar</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <span>3. </span>
+                <a href="#item_3">Propiedades de los vectores</a>
+            </li>
+        </ol>
+
+        <div id="item_1">
+            <div class="separator">
+                <img src="static/images/item1_intro.png" alt="Separador">
+            </div>
+            <span>
+                En esta sección introductoria, exploraremos los conceptos fundamentales relacionados con los vectores.
+                Comenzaremos definiendo qué es un vector y discutiendo su importancia en diversos campos, desde las
+                matemáticas hasta la física y la informática. Además, exploraremos los diferentes tipos de vectores y
+                cómo se representan en diferentes dimensiones, incluido el espacio tridimensional. Esta sólida base te
+                preparará para comprender en profundidad las operaciones y propiedades de los vectores que abordaremos
+                en secciones posteriores.
+            </span>
+            <div class="card_container">
+                <div class="card">
+                    <div class="card_inner">
+                        <div class="card_front">
+                            <h3>Definición de vector</h3>
+                            <img src="static/images/card_def.png" alt="definicion_vectores">
+                        </div>
+                        <div class="card_back">
+                            <p>
+                                Un vector es una entidad matemática que representa una magnitud física con dirección y
+                                sentido específicos. En otras palabras, un vector no solo tiene un valor numérico, sino
+                                que también indica la dirección en la que actúa y su orientación en el espacio. Por
+                                ejemplo, en un plano cartesiano, un vector puede representar la fuerza ejercida por un
+                                objeto o la velocidad de un cuerpo en movimiento. <br><br>
+                                En términos más técnicos, un vector se caracteriza por su módulo (o magnitud), que
+                                representa la longitud del vector, y su dirección, que indica hacia dónde apunta. La
+                                representación geométrica de un vector suele ser una flecha que comienza en un punto de
+                                origen y se extiende en una dirección específica.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_inner">
+                        <div class="card_front">
+                            <h3>Tipo de vectores</h3>
+                            <img src="static/images/card_type_vector.png" alt="tipo_vectores">
+                        </div>
+                        <div class="card_back">
+                            <p>
+                                Los vectores pueden clasificarse en diferentes tipos según sus características y
+                                aplicaciones. Algunos de los tipos comunes de vectores incluyen:
+                            <ul class="card_vect_list">
+                                <li>Vectores unitarios: Vectores con una longitud de magnitud igual a uno y se utilizan
+                                    para indicar direcciones.</li>
+                                <li>Vectores libres: Vectores que tienen tanto magnitud como dirección, pero no están
+                                    fijos en un punto específico.</li>
+                                <li>Vectores fijos: Vectores que tienen tanto magnitud como dirección, y están fijos en
+                                    un punto específico en el espacio.</li>
+                                <li>Vectores ortogonales: Vectores que son perpendiculares entre sí en un espacio
+                                    euclidiano.</li>
+                                <li>Vectores paralelos: Vectores que tienen la misma dirección o son múltiplos uno del
+                                    otro.</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card_inner">
+                        <div class="card_front">
+                            <h3>Vectores en el espacio tridimensional</h3>
+                            <img src="static/images/card_tridim.png" alt="vectores_tridimensionales">
+                        </div>
+                        <div class="card_back">
+                            <p>Los vectores en el espacio tridimensional son aquellos que tienen dirección y magnitud y
+                                se encuentran en un sistema de tres dimensiones (longitud, anchura y altura).</p>
+                            <p>Se representan mediante un punto de origen (generalmente el punto cero) y un punto final
+                                en el espacio tridimensional.</p>
+                            <p>Estos vectores pueden ser utilizados para representar desplazamientos, fuerzas o
+                                cualquier cantidad física que tenga una dirección y magnitud en el espacio
+                                tridimensional.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="item_2">
+            <div class="separator">
+                <img src="static/images/item2_basic.png" alt="Separador">
+            </div>
+            <span>
+                En esta sección, exploraremos las operaciones esenciales que se llevan a cabo con vectores en el
+                contexto matemático y físico. Los vectores son entidades fundamentales que tienen magnitud (longitud) y
+                dirección, y pueden representar diversas cantidades físicas como fuerzas, velocidades, desplazamientos,
+                entre otras.
+            </span>
+            <div class="container_card_item2">
+                <a href="templates/operaciones/suma_resta.html" class="card_item2"
+                    style="background-image: url('static/images/card_sum.png');">
+                    <h3>Suma y resta de vectores</h3>
+                </a>
+                <a href="templates/operaciones/mutiplicar_escalar.html" class="card_item2"
+                    style="background-image: url('static/images/card_mult.png');">
+                    <h3>Multiplicación por un escalar</h3>
+                </a>
+            </div>
+        </div>
+
+        <div id="item_3">
+            <div class="separator">
+                <img src="static/images/item3_prop.png" alt="Separador">
+            </div>
+            <span>
+                Las propiedades de los vectores son características fundamentales que nos permiten comprender su comportamiento y aplicaciones en diversos contextos matemáticos y físicos. Algunas de las propiedades más importantes de los vectores incluyen:
+            </span>
+            <div class="item_text">
+                <table>
+                    <tr>
+                        <td><strong>Vectores unitarios</strong></td>
+                        <td>Son vectores con magnitud igual a 1 que indican únicamente la dirección en la que se mueve
+                            un objeto. Los vectores unitarios son fundamentales en cálculos de dirección y permiten
+                            expresar cualquier otro vector en términos de dirección.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vector nulo</strong></td>
+                        <td>Es un vector que tiene una magnitud igual a cero y no tiene una dirección definida. El
+                            vector nulo se representa comúnmente como 0 y se utiliza en varios cálculos matemáticos y
+                            físicos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vector opuesto</strong></td>
+                        <td>Cada vector tiene un vector opuesto que tiene la misma magnitud pero dirección opuesta. Si
+                            consideramos un vector como un desplazamiento en una dirección, su vector opuesto
+                            representaría un desplazamiento en la dirección opuesta.</td>
+                    </tr>
+                </table>
+            </div>
+            <span>
+                Estas propiedades son fundamentales en el estudio y la aplicación de vectores en áreas como la física, la ingeniería y las matemáticas. Comprender estas propiedades nos permite realizar cálculos precisos y modelar fenómenos físicos de manera efectiva.
+            </span>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Todos los derechos son reservados para la práctica de fundamentación a HTML, CSS y Listas modificadas.</p>
+    </footer>
+</body>
+
+</html>
