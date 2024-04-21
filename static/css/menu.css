@@ -1,0 +1,121 @@
+header {
+    background-image: linear-gradient(to bottom right, #f87ee6, #310557);
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    padding: 2.5% 20px;
+}
+
+.content_introduction {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000; /* Cambiar color de texto */
+}
+
+.content_introduction p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.content_introduction h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.content_introduction span {
+    font-weight: bold;
+}
+
+.content_conclusion {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000; /* Cambiar color de texto */
+}
+
+.content_conclusion h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.content_conclusion p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.content_cibergrafia {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000; /* Cambiar color de texto */
+}
+
+.content_cibergrafia h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.content_cibergrafia ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content_cibergrafia li {
+    margin-bottom: 10px;
+}
+
+.content_cibergrafia a {
+    color: purple;
+    text-decoration: underline;
+}
+
+.content_cibergrafia a:hover {
+    color: plum;
+}
+
+.content_conclusion ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.content_conclusion ul li {
+    padding: 5px;
+    border: 1px solid plum;
+    text-align: center;
+}
+
+.content_conclusion ul li:hover {
+    background-color: plum;
+}
+
+@media (max-width: 768px) {
+    .content_conclusionul {
+        display: block;
+    }
+}

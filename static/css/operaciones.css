@@ -1,0 +1,21 @@
+h2 {
+    color: purple;
+}
+
+span {
+    color: plum;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.content_sum_rest, .content_scalar_multiplication{
+    padding: 40px;
+    min-height: auto !important;
+}
+
+.center_text{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
